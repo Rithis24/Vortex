@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.i,.ii,.iii,.p{
+    width: 70rem;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-left: 3rem;
+    .i1,.i2{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-top: 2rem;
+        width: 25rem;
+        height: 410px;
+        transition: all 0.2s ease;
+        img{
+            border-radius: 20px;
+            margin-top: 1rem;
+            margin-left: 3rem;
+            width: 18rem;
+            height:10rem;
+            transition: all 0.3s ease;
+        }
+        h2{
+            font-family: "Saira", sans-serif;
+            color: red;
+            margin-left: 3rem;
+            margin-top: 1rem;
+        }
+        p{
+            margin-right: 2rem;
+            text-align: center;
+            margin-left: 4rem;
+            margin-top: 1rem;
+        }
+    }
+    .i1:hover,.i2:hover{
+        scale: 1.1;
+        background-color: red;
+        h2{
+            color: white;
+        }
+    }
+}
+.b{
+    height: 10rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+    button{
+        background-color: rgb(255, 255, 255);
+        font-weight: 500;
+        border: none;
+        border-radius: 10px;
+        height: 2rem;
+        width: 6rem;
+        transition: all 0.3s ease;
+        a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    }
+     button:hover{
+        background-color: red;
+        scale: 1.1;
+        a{
+            color: white;
+        }
+    }
+}
+.i,.ii,.iii,.p{
+    animation:scroll;
+    animation-timeline:view(50% auto) ;
+}
+@keyframes scroll{
+    from{
+        opacity: 0;
+        transform: translateY(250px) scale(0.3);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

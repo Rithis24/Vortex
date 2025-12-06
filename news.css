@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+.i1{
+    width: 70rem;
+    background-color: white;
+    margin: 3.2rem;
+    border-radius: 10px;
+    height: 65rem;
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: red;
+        padding-top:1.5rem;
+        margin-left: 1rem;
+    }
+    p{
+        width: 60rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        text-align:justify;
+    }
+}

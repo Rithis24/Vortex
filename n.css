@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 3rem;
+    gap: 14rem;
+    margin-top: 1rem;
+    width: 70rem;
+    height: 3.5rem;
+    z-index: 100;
+    .h1{
+        cursor: pointer ;
+        margin-left: 3rem;
+        color: red;
+        font-family: "Monoton", sans-serif;
+        font-weight: 400;
+        transition: all 0.2s linear;
+    }
+    div{
+        display: flex;
+        gap: 2rem;
+        a{
+            font-family: "Cinzel", serif;
+            color: rgb(0, 0, 0);
+            transition: all 0.2s ease;
+        }
+        a:hover{
+            color: red;
+            scale: 1.2;
+            rotate: 3deg;
+        }
+    }
+    button{
+        background-color: black;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        height: 2rem;
+        width: 6rem;
+        transition: all 0.3s ease;
+        a{
+            color: white;
+        }
+    }
+    button:hover{
+        background-color: red;
+        scale: 1.1;
+        a{
+            color: white;
+        }
+    }
+}
+main{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    width: 70rem;
+    height: 20rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    h2{
+        font-family: "League Spartan", sans-serif;
+        color: red;
+        margin-left: 1.5rem;
+    }
+    p{
+        padding-top: 1rem;
+        color: rgb(0, 0, 0);
+        margin-left: 2rem;
+        width: 30rem;
+        text-align: center;
+    }
+    .im{
+        padding-left: 1rem;
+        display: flex;
+        gap:1.5rem;
+        img{
+            border-radius: 10px;
+            width: 17rem;
+            height: 10rem;
+            transition: all 0.2s ease;  
+            
+        }
+        img:hover{
+            scale: 1.02;
+            border-radius: 5px;
+        }
+    }
+}
+nav{
+    margin: 17rem 0 0px 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    img{
+        width: 15%;
+        height: 30%;
+        object-fit: cover;
+        border-radius: 100%;
+        transition: all 0.5s ease;
+    }
+    img:hover{
+        border-radius: 10px;
+        height: 75%;
+        width: 70%;
+    }
+}
+.i{
+    width: 70rem;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-left: 3rem;
+    .i1,.i2{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-top: 2rem;
+        width: 25rem;
+        height: 410px;
+        transition: all 0.2s ease;
+        img{
+            border-radius: 20px;
+            margin-top: 1rem;
+            margin-left: 3rem;
+            width: 18rem;
+            height:10rem;
+            transition: all 0.3s ease;
+        }
+        h2{
+            font-family: "Saira", sans-serif;
+            color: red;
+            margin-left: 3rem;
+            margin-top: 1rem;
+        }
+        p{
+            margin-right: 2rem;
+            text-align: center;
+            margin-left: 4rem;
+            margin-top: 1rem;
+        }
+    }
+    .i1:hover,.i2:hover{
+        scale: 1.1;
+        background-color: red;
+        h2{
+            color: white;
+        }
+    }
+}
+.o{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+    justify-content: center;
+    background-color: white;
+    gap: 3rem;
+    img{
+        object-fit: cover;
+        width: 80rem;
+        height:20rem;
+    }
+    .o1{
+        padding-bottom: 6rem;
+        h2{
+            color: red;
+            padding-bottom: 1rem;
+        }
+        p{
+            width: 30rem;
+            padding-right: 2rem;
+            text-align: center;
+        }
+    }
+}
+.oo{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center;
+    background-color: white;
+    gap: 3rem;
+    img{
+        object-fit: cover;
+        width: 80rem;
+        height:20rem;
+    }
+    .oo1{
+        padding-bottom: 6rem;
+        h2{
+            color: red;
+            padding-left: 1rem;
+            padding-bottom: 1rem;
+        }
+        p{
+            width: 30rem;
+            padding-left: 2rem;
+            text-align: center;
+        }
+    }
+}
+.ooo{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center;
+    background-color: white;
+    gap: 3rem;
+    img{
+        object-fit: cover;
+        width: 80rem;
+        height:20rem;
+    }
+    .ooo1{
+        padding-bottom: 6rem;
+        h2{
+            color: red;
+            padding-bottom: 1rem;
+        }
+        p{
+            width: 30rem;
+            padding-right: 2rem;
+            text-align: center;
+        }
+    }
+}
+
+footer{
+    margin-top: 5rem;
+}
+.gaming-footer {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 30px 0 0;
+  font-family: 'Rubik', sans-serif;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-logo {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+.footer-logo h3 {
+  color: #f0f0f0;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.footer-logo p {
+  color: #aaa;
+  font-size: 14px;
+}
+.footer-links, .footer-social {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+.footer-links h4, .footer-social h4 {
+  color: #f0f0f0;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.footer-links ul, .footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li, .footer-social li {
+  margin-bottom: 10px;
+}
+.footer-links a, .footer-social a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-links a:hover, .footer-social a:hover {
+  color: #fff;
+}
+.footer-social i {
+  margin-right: 8px;
+}
+.footer-bottom {
+  text-align: center;
+  padding: 15px 0;
+  background: #0d0d0d;
+  font-size: 14px;
+  color: #aaa;
+}

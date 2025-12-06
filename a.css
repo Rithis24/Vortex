@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+  background-image: url(bg.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  width: 20rem;
+  margin-top: 1rem;
+  background: white;
+  color: red;
+  border-radius: 30px;
+  padding: 2rem;
+  margin-left: 26.2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.about-column {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-column p {
+  margin: 0.75rem 0;
+  line-height: 1.6;
+}
+
+footer {
+  background:rgb(255, 255, 255);
+  color: red;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
